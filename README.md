@@ -1,20 +1,36 @@
 # frontend-1st-HHN
-##💭 프로젝트 소개
+# 💭 프로젝트 소개
 
 
-##프로젝트 영상
+# 😎 프로젝트 영상
+https://youtu.be/kkQAP6bEflQ
 
 
-# 👀 팀 이름 정하기
-행주 기씨, 현풍 곽씨, 능섬 구씨의 모임으로 팀명을 첫 글자를 모아 행현능으로 결정
 
+# 👨‍👦‍👦 팀원 소개
+기남석, 곽지은, 구자빈으로 구성된 행현능입니다
+행주 기씨, 현풍 곽씨, 능섬 구씨의 모임으로 팀명을 첫 글자를 조합하여 "행현능" 팀명을 정하였씁니다
+
+
+
+# 역할 분배
+- 개인 소개 페이지는 각자 제작
+- 구자빈: 로그인 페이지
+- 곽지은: 사이드바
+- 기남석: 메인 페이지(팀 소개 페이지)
+
+### 업무 프로세스
+- 먼저 로그인 페이지, 사이드바, 팀 소개 페이지 제작
+- 각자 소개 페이지 제작
 
 
 # 화면 설계서
+![image](https://github.com/user-attachments/assets/ab84dfe0-f142-4d6e-bd01-e191bf0f82b2)
 https://www.figma.com/design/CmempTfLxTtNFwg91TYZhF/%E5%A5%87-%E5%8D%97-%E9%8C%AB?node-id=1-3&t=enWz29v0n8hv2Ycn-0
 
 
 ## 폰트
+![image](https://github.com/user-attachments/assets/db9843e3-8a0e-453c-afd1-680343222cf0)
 - Noto Sans Korean
     - https://fonts.google.com/noto/specimen/Noto+Sans+KR?subset=korean&noto.script=Kore
 ### 폰트 크기
@@ -23,16 +39,8 @@ https://www.figma.com/design/CmempTfLxTtNFwg91TYZhF/%E5%A5%87-%E5%8D%97-%E9%8C%A
 - 본문: 16px
 
 
-## 업무 분배
-- 개인 소개 페이지는 각자 제작
-- 구자빈: 로그인 페이지
-- 곽지은: 사이드바
-- 기남석: 메인 페이지(팀 소개 페이지)
 
-## 업무 프로세스
-- 먼저 로그인 페이지, 사이드바, 팀 소개 페이지 제작
-- 각자 소개 페이지 제작
 
-# 컨벤션
-- 이번 프로젝트에선 신경쓰지 않기로 함
-https://cyclic-eater-9c2.notion.site/16baefa4137f413ab4423b0734b440fc?pvs=4
+
+# 회의록
+https://cyclic-eater-9c2.notion.site/16baefa4137f413ab4423b0734b440fc
