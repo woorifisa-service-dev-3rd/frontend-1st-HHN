@@ -3,7 +3,7 @@
 
 
 # 😎 프로젝트 영상
-https://youtu.be/kkQAP6bEflQ
+[![Watch the video](https://youtu.be/_bZ9HQ_8-_0/0.jpg)](https://youtu.be/_bZ9HQ_8-_0)
 
 
 
