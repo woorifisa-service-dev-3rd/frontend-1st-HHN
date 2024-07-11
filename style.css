@@ -1,0 +1,89 @@
+/* 폰트 */
+*{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* 전체 화면 색상 */
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: #3F66DB;
+
+}
+
+/* 로그인 폼 디자인 */
+table{ 
+    height:35vh;
+    width: 35vh;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border-radius: 5px; 
+     
+}
+
+/* 로그인 버튼(Sign In) 틀 디자인 */
+.login_button{
+    margin-top:20px;
+    width:100%;
+    border-radius: 5px;
+    background-color: #CFDEF3;
+    border : 1px none gray;
+    padding : 5px;
+}
+
+/* 로그인 버튼(Sign In) 문구 디자인  */
+.login_text{
+    text-decoration: none;
+    color:white;
+}
+
+/* 비밀번호 찾기 디자인 */
+.forgot_password{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+/* Email 입력칸 상단에 있는 Email 글자 디자인 */
+.email_text{
+    font-size: 13px;
+    margin-top:2px;
+    margin-bottom:3px;
+}
+
+/* Password 입력칸 상단에 있는 Password 글자 디자인 */
+.pwd_text{
+    font-size: 13px;
+    margin-top:12px;
+    margin-bottom:3px;
+}
+
+/* Email, Password 입력칸 디자인 */
+input{
+    border : 1px solid lightgray;
+    border-radius : 5px;
+    width:30vh;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 7px;
+}
+
+#text_form{
+    width:100%;
+}
+
+/* Email, Password 입력칸 초기 출력 글자 색상 */
+input::placeholder{
+    color:lightgray;
+}
+
+
+
