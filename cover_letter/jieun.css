@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    background: #3F66FB;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+aside{
+    background-color: #CFD8FE;   
+    display: inline-block;
+    height: 100%; 
+}
+
+#logo{
+    margin: 20px 20px 0px 20px;
+}
+
+#account_circle{
+    margin: 0px 10px 0px 50px;
+}
+
+#settings{
+    margin: 0px 20px 0px 0px;
+}
+
+.con{
+    text-decoration: none; 
+    color: black; 
+}
+
+#profile{
+    width: 30px;
+    height: 30px;
+    display: inline;
+}
+
+.name{
+    display: inline;
+}
+
+
+nav{
+    background: #CFD8FE;
+    display: flex;
+    
+}
+
+ul{
+    list-style-type: none;
+    display: block;
+    padding-inline-start: 0;
+}
+
+/*
+li{
+    margin: 50px 50px 25px 20px;
+    background-color: greenyellow;
+    width: 100px;
+    font-size: 30px;  
+}
+    */
+.person1{
+    margin: 200px 180px 20px 30px;
+    background-color: #CFD8FE;
+    font-family: 'Noto Sans KR';
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.person2{
+    margin: 50px 180px 0px 30px;
+    background-color:  #CFD8FE;
+    font-family: 'Noto Sans KR';
+    font-size: 20px;
+    font-weight: bolder;
+}
+.person3{
+    margin: 50px 50px 250px 30px;
+    background-color:  #CFD8FE;
+    font-family: 'Noto Sans KR';
+    font-size: 20px;
+    font-weight: bolder;
+}
+
