@@ -9,6 +9,10 @@ body{
     background-color: #3F66FB;
 }
 
+.content-container{
+    display: flex;
+}
+
 main {
     padding: 5em;
 }
