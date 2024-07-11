@@ -1,5 +1,7 @@
 html{
     height: 100%;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
 }
 
 body{
@@ -75,10 +77,10 @@ strong{
     font-size: 4rem;
 }
 
-.lorem{
+.intro{
     padding-left: 2em;
     padding-right: 2em;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 .summary{
@@ -114,8 +116,8 @@ a{
 
 .rectangle{
     border: 3px solid red;
-    width: 0.9em;
-    height: 5.8em;
+    width: 1em;
+    height: 6em;
     position: absolute;
 }
 
@@ -139,4 +141,34 @@ a{
     margin: 0px;
     font-size: 5rem;
     font-weight: 900;
+}
+
+.member-container{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.psa-container{
+    display: flex;
+}
+
+.psa-container img{
+    display: block;
+    width: 10em;
+    height: auto;
+    border-radius: 10px;
+}
+
+.name{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.history{
+    text-align: center;
+}
+
+.short-info{
+    text-align: center;
 }
