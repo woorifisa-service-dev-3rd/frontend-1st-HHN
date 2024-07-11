@@ -71,6 +71,7 @@ h3{
     background: linear-gradient(to right top, #F533FF,  #3382FF, #33F1FF 80%);
     color:transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 strong{
