@@ -1,3 +1,64 @@
+.content-container{
+    display: flex;
+}
+
+/* 사이드바 */
+nav{
+    background: #CFD8FE;
+    display: flex;
+    width: 18em;
+}
+
+aside{
+    background-color: #CFD8FE;   
+    display: inline-block;
+
+}
+
+#logo{
+    margin: 50px 50px 0px 20px;
+}
+
+#account_circle{
+    margin: 0px;
+}
+
+#settings{
+    margin: 0px 10px 0px 0px;
+}
+
+.con{
+    text-decoration: none; 
+    color: black; 
+}
+
+.profile{
+    width: 30px;
+    height: 30px;
+    display: inline;
+}
+
+.ul-line{
+    padding-left: 0em;
+}
+
+
+
+.name{
+    display: inline;
+}
+
+.person{
+    margin-top: 5em;
+    margin-left: 2em;
+    background-color: #CFD8FE;
+    font-family: 'Noto Sans KR';
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/* 메인 컨텐츠 */
 html{
     height: 100%;
     font-family: "Noto Sans KR", sans-serif;
@@ -36,6 +97,7 @@ article{
 body{
     min-height: 100%;
     background-color: #3F66FB;
+    margin:0;
 }
 ul{
     margin: 0;
