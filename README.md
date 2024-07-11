@@ -3,7 +3,11 @@
 자유롭게 자신을 소개하는 페이지를 만들었습니다
 
 # 😎 프로젝트 영상
-[![Watch the video](https://youtu.be/_bZ9HQ_8-_0/0.jpg)](https://youtu.be/_bZ9HQ_8-_0)
+
+
+https://github.com/user-attachments/assets/820f5d48-d78c-4bfc-b2cb-fd27a53f9421
+
+
 
 
 
