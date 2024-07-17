@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/820f5d48-d78c-4bfc-b2cb-fd27a53f9421
 ## 컨벤션
 
 ### 깃허브 커밋 컨벤션
-- 브랜치명: feature/기능명
+- 브랜치명: 카테고리/기능명
 ```
 feature/login-page
 ```
