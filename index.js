@@ -28,7 +28,7 @@ passInput.addEventListener('input', (event) => {
     isValid(id, password);
 })
 
-loginButton.addEventListener('click', async(event) => {
+loginButton.addEventListener('click', async() => {
     const data = {
         userId: id,
         password: password
