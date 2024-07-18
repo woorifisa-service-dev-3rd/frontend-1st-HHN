@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 50px;
 }
 
 .con1, .con2{
@@ -30,11 +31,15 @@ body {
 .con1{
     width: 40em;
     background-color: #3F66FB;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .con2{
     width: 70em;
     background-color: #ffffff;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .main{
