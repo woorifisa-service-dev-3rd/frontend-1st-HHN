@@ -8,12 +8,24 @@ const loginButton = document.getElementById('login-button');
 let id = "";
 let password = "";
 
+function isValid(id, password) {
+    if (id&&password) {
+        loginButton.style.backgroundColor = "#3F66FB";
+        loginButton.style.color = "white";
+    } else {
+        loginButton.style.backgroundColor = "#CFD8FE";
+        loginButton.style.color = "black";
+    }
+}
+
 idInput.addEventListener('input', (event) => {
     id = event.target.value;
+    isValid(id, password);
 })
 
 passInput.addEventListener('input', (event) => {
     password = event.target.value;
+    isValid(id, password);
 })
 
 loginButton.addEventListener('click', async(event) => {
@@ -23,4 +35,10 @@ loginButton.addEventListener('click', async(event) => {
     }
     const res = await Fet.post('auth/signin', JSON.stringify(data));
     console.log(res)
+})
+
+const toSignUp = document.getElementById('to-signup');
+
+toSignUp.addEventListener('click', () => {
+    window.location.href = "./src/signup/signup.html"
 })

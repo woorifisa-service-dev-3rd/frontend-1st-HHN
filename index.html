@@ -15,8 +15,14 @@
         <div class="login-form">
             <div id="form-login">
                 <div id="inputs">
-                    <input id="id-input" placeholder="아이디를 입력해주세요."/>
-                    <input id="pass-input" type="password" placeholder="비밀번호를 입력해주세요."/>
+                    <div class="floating-label-group">
+                        <input id="id-input" autocomplete="off" required placeholder=" " />
+                        <label for="id-input" class="floating-label">Username</label>
+                    </div>
+                    <div class="floating-label-group">
+                        <input class="inputs" autocomplete="off" id="pass-input" type="password" required placeholder=" " />
+                        <label class="floating-label">Password</label>
+                    </div>
                 </div>
                 <div id="buttons">
                     <div id="login-container">
@@ -30,8 +36,22 @@
                     </div>
                 </div>
             </div>
-            <div id="corp_info">
-
+            <div id="right-container">
+                <div id="corp_info">
+                    <div id="page-name">로그인</div>
+                    <img src="./static/images/logo.png"/>
+                    <div id="corp-name">HHN</div>
+                    <div>우리만의 자기소개</div>
+                    <div id="socials">
+                        <img src="./static/images/google_icon.jpg"/>
+                        <img src="./static/images/naver_icon.png"/>
+                        <img src="./static/images/kakao_icon.png"/>
+                    </div>
+                    <div id="to-signup">
+                        <div>아직 회원이 아니신가요?</div>
+                        <div id="underline">회원가입</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
