@@ -32,3 +32,7 @@ $RECYCLE.BIN/
 # .env
 .env
 env.js
+
+#.nodemodules
+node_modules/
+/node_modules
