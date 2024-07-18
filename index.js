@@ -34,7 +34,12 @@ loginButton.addEventListener('click', async(event) => {
         password: password
     }
     const res = await Fet.post('auth/signin', JSON.stringify(data));
-    console.log(res)
+    if(res.statusCode === 201) {
+        window.location.href = "./home.html";
+    }
+    else {
+        window.alert(res.message);
+    }
 })
 
 const toSignUp = document.getElementById('to-signup');
