@@ -1,0 +1,113 @@
+body {
+    background-image: url('../../static/images/bg1.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0;
+}    
+
+*{
+    font-family: 'Noto Sans KR';
+}
+
+.con{
+    width: 70em;
+    height: 40em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.con1, .con2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+}
+
+.con1{
+    width: 40em;
+    background-color: #3F66FB;
+}
+
+.con2{
+    width: 70em;
+    background-color: #ffffff;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.con1 p, .con1 img, .con1 a {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.con1 a {
+    text-decoration: none; 
+}
+
+.con1 p {
+    font-size: 30px;
+}
+
+span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.project_title{
+    margin-bottom: 0em;
+    font-weight: bold;
+}
+
+.select{
+    display: block;
+}
+
+.select1{
+    gap: 200px; 
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #ffffff;
+    outline: none; 
+}
+
+#submitBtn{
+    padding: 1em 10em;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    background-color: #CFD8FE; 
+    color : gray;
+    margin-top: 50px;
+}
+
+#submitBtn:hover {
+    background-color: #3F66FB;
+    color: #ffffff;
+}
+
+
+
