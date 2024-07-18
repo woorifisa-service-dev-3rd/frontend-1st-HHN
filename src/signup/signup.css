@@ -6,6 +6,11 @@ body {
     height: 100vh; 
     margin: 0;
 }    
+
+*{
+    font-family: 'Noto Sans KR';
+}
+
 .con{
     width: 70em;
     height: 40em;
