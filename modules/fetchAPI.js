@@ -1,4 +1,4 @@
-import { baseUrl } from "../env.js";
+const baseUrl = "https://www.nestprac.com"
 
 export class Fet {
     static async post(url, data){
