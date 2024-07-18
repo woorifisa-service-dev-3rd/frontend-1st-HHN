@@ -1,0 +1,15 @@
+{
+  "name": "01.-html-css",
+  "version": "1.0.0",
+  "description": "자유롭게 자신을 소개하는 페이지를 만들었습니다",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
