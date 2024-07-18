@@ -1,7 +1,7 @@
-const baseUrl = process.env.SERVER_URL;
+import { baseUrl } from "../env.js";
 
 export class Fet {
-    async post(url, data){
+    static async post(url, data){
         const response = await fetch(
             `${baseUrl}/${url}`,
             {

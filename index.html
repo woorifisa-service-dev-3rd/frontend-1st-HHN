@@ -8,52 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <script defer type="module" src="./index.js"></script>
 </head>
 <body>
     <section>
-        <div class="login_form">
-            <table>
-                <tr>
-                    <td>
-                        <div class="email_text">
-                            <a>Email</a>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div id="text_form">
-                            <input type="text" placeholder="Value">
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="pwd_text">
-                            <a>Password</a>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div id="text_form">
-                            <input type="password" placeholder="Value">
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button class="login_button" ><a href="home.html" class="login_text">Sign In</a></button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="forgot_password">
-                            <a href="/frontend-1st-HHN/home.html" style="color:black">Forgot_password?</a>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+        <div class="login-form">
+            <div id="form-login">
+                <div id="inputs">
+                    <input id="id-input" placeholder="아이디를 입력해주세요."/>
+                    <input id="pass-input" type="password" placeholder="비밀번호를 입력해주세요."/>
+                </div>
+                <div id="buttons">
+                    <div id="login-container">
+                        <button id="login-button">
+                            <div>로그인</div>
+                        </button>
+                    </div>
+                    <div id="find-info">
+                        <div>아이디 찾기</div>
+                        <div>비밀번호 찾기</div>
+                    </div>
+                </div>
+            </div>
+            <div id="corp_info">
+
+            </div>
         </div>
     </section>
 </body>
