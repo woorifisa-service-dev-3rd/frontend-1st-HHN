@@ -169,8 +169,20 @@ strong{
     margin-bottom: 2em;
 }
 
-.summary{
-    list-style-type: none;
+summary{
+    font-size: 1.5em;
+}
+
+details > summary{
+    list-style: none;
+}
+
+summary::after{
+    content: '➡️';
+}
+
+details[open] summary:after {
+    content: '⬇️' ;
 }
 
 .info-container{
@@ -221,4 +233,8 @@ a{
     justify-content: center;
     height: 30em;
     width: auto;
+}
+
+.details-content{
+    margin-top: 1em;
 }
