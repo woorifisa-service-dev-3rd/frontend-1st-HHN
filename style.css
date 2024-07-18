@@ -5,85 +5,199 @@
     font-style: normal;
 }
 
+body{
+    margin: 0;
+}
+
 /* 전체 화면 색상 */
 section{
     display: flex;
     align-items: center;
     justify-content: center;
+    width:100%;
     height:100vh;
-    background-color: #3F66DB;
-
+    background-image: url(./static/images/bg1.png);
+    background-size: cover;
 }
 
-/* 로그인 폼 디자인 */
-table{ 
-    height:35vh;
-    width: 35vh;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 15px;
-    padding-right: 15px;
+
+.login-form{
+    display: flex;
+    margin: auto;
+}
+
+#form-login{
     background-color: white;
-    border-radius: 5px; 
-     
-}
-
-/* 로그인 버튼(Sign In) 틀 디자인 */
-.login_button{
-    margin-top:20px;
-    width:100%;
-    border-radius: 5px;
-    background-color: #CFDEF3;
-    border : 1px none gray;
-    padding : 5px;
-}
-
-/* 로그인 버튼(Sign In) 문구 디자인  */
-.login_text{
-    text-decoration: none;
-    color:white;
-}
-
-/* 비밀번호 찾기 디자인 */
-.forgot_password{
-    margin-top: 10px;
-    font-size: 12px;
+    width: 55vw;
+    height: 30em;
+    border-radius: 1em 0 0 1em;
 }
 
 
-/* Email 입력칸 상단에 있는 Email 글자 디자인 */
-.email_text{
-    font-size: 13px;
-    margin-top:2px;
-    margin-bottom:3px;
+/* 기본 스타일 설정 */
+#inputs{
+    margin: 5em 5em 2em 5em;
 }
 
-/* Password 입력칸 상단에 있는 Password 글자 디자인 */
-.pwd_text{
-    font-size: 13px;
-    margin-top:12px;
-    margin-bottom:3px;
+.floating-label-group {
+    position: relative;
 }
 
-/* Email, Password 입력칸 디자인 */
-input{
-    border : 1px solid lightgray;
-    border-radius : 5px;
-    width:30vh;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 12px;
-    padding-right: 7px;
+.floating-label-group input {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    border-color: black;
+    width: 35vw;
+    height: 4em;
+    margin-bottom: 1em;
+    line-height: 3em;
+    font-size: 1.5rem;
 }
 
-#text_form{
-    width:100%;
+/* label 기본 스타일 */
+.floating-label-group label {
+    position: absolute;
+    top: 2em;
+    left: 0em;
+    color: #999;
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+    font-size: 1.5rem;
 }
 
-/* Email, Password 입력칸 초기 출력 글자 색상 */
-input::placeholder{
-    color:lightgray;
+.floating-label-group input:focus {
+    outline:none;
+    border-bottom: 3px solid;
+    border-color: #3F66FB;
 }
 
 
+/* input이 focus되거나 값이 있을 때 label 스타일 */
+.floating-label-group input:focus + label,
+.floating-label-group input:not(:placeholder-shown) + label {
+    top: -0.5em;
+    left: 0em;
+    font-size: 1rem;
+    color: #3F66FB;
+}
 
+/* input의 placeholder 제거 */
+.floating-label-group input::placeholder {
+    color: transparent;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    margin: auto;
+}
+
+#login-container{
+    width: 100%;
+}
+
+#login-button{
+    width: 100%;
+    height: 3em;
+    background-color: #CFD8FE;
+    border: none;
+    border-radius: 1em;
+    font-size: 1em;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+#find-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+    margin-top: 0.5em;
+}
+
+
+#corp_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    width: 100%;
+    height: 30em;
+    background-color: #3F66FB;
+    color: white;
+    border-radius: 0 1em 1em 0;
+    
+}
+
+#page-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#corp-name{
+    font-size: 1.5rem;
+}
+
+#socials {
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+#socials img{
+    border-radius: 6em;
+}
+
+#to-signup{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(min-width:892px) {
+    #form-login {
+        width: 32em;
+    }
+
+    .floating-label-group input{
+        width: 12em;
+    }
+
+    #buttons {
+        width: 20em;
+    }
+
+    #corp_info{
+        width: 20em;
+    }
+
+    #socials{
+        width: 15em;
+    }
+
+    #to-signup{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    #underline{
+        text-decoration: underline 1px solid white;
+    }
+}
+
+@media(max-width: 552px) {
+    #corp_info img {
+        width: 90%
+    }
+}
