@@ -103,10 +103,13 @@ git commit -m "[FE] login: 페이지 UI 완성"
 
 ### 룰 변경
 - approve 하나 이상을 받아야 pull 가능하도록 설정
-- 
+- CSS는 kebab-case, JS는 camelCase로 변수 작성
 
 
-
+### ESLint
+- no-var
+- no-void
+- prefer-const
 
 
 
