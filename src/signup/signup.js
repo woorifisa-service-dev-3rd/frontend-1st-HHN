@@ -1,4 +1,5 @@
 import {Fet} from '../../modules/fetchAPI.js' 
+import { signup } from './signupapi.js';
 
 const idBox = document.getElementsByClassName('id_box')[0];
 const pwBox = document.getElementsByClassName('pw_box')[0];
@@ -21,19 +22,12 @@ emailBox.addEventListener('input', (event) => {
 });
 
 document.getElementById('submitBtn').addEventListener('click', async function() {
-    const data={
-        userId : text_id,
-        password: text_pw,
-        email: text_email
-    }
-    const result = await Fet.post("auth/signup", JSON.stringify(data));
-    console.log(result);
-
-    if (result.statusCode==="201"){
+    const awaitsignup = await signup(text_id, text_pw, text_email);
+    if (awaitsignup.statusCode==="201"){
         window.location.href = '../../index.html';
     }
     else{
-        alert(result.message); 
+        alert(awaitsignup.message); 
     }
 });
 
