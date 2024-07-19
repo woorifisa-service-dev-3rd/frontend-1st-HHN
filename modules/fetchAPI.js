@@ -1,5 +1,4 @@
-const baseUrl = "https://www.nestprac.com"
-
+const baseUrl = "";
 export class Fet {
     static async post(url, data){
         const response = await fetch(
